@@ -9,8 +9,8 @@ def find_cube_pairs(target):                                # needs colon for co
     return solutions                                        # corrected 'sol' to solutions, no such thing as 'sol'.
 
 pairs = find_cube_pairs(1729)                               # removed comma, incorrect syntax
-print("Valid cube pairs for 1728:")                         # removed comma, incorrect syntax. Changed 'printf' to print.
+print("Valid cube pairs for 1729:")                         # removed comma, incorrect syntax. Changed 'printf' to print. Changed 1728 to 1729.
 for a, b in pairs:                                          # changed 'pair' to pairs, no such thing as 'pair'. Added colon for correct for loop syntax.
-    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1728")       # changed 'printf' to print. Fixed incorrect exponentiation (was squaring instead of cubing (**2 -> **3)).
+    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729")       # changed 'printf' to print. Fixed incorrect exponentiation (was squaring instead of cubing (**2 -> **3)). Changed 1728 to 1729.
 
 """Submit your response here:  https://forms.office.com/Pages/ResponsePage.aspx?id=vDsaA3zPK06W7IZ1VVQKHFzW4INMf2JMjyL9qPnlPbNUMFU2TjI1WjQyUlczSFNIOFBEWkxTQ0lFQS4u"""
